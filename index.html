@@ -212,10 +212,12 @@
     footer img { height: 32px; opacity: 0.7; }
 
     @media (max-width: 768px) {
-      nav { padding: 1rem 1.5rem; }
-      .nav-brand span { font-size: 1rem; }
-      .nav-links { gap: 1.2rem; }
-      .section-image { background-attachment: scroll; }
+      nav { padding: 0.6rem 1rem; }            /* tighter padding around the whole nav */
+  .nav-brand img { height: 30px; }         /* smaller logo */
+  .nav-brand span { font-size: 0.85rem; }  /* smaller "Merseyside FGC" text */
+  .nav-links { gap: 0.8rem; }              /* links closer together */
+  .nav-links a { font-size: 0.7rem; }      /* smaller link text */
+  .section-image { background-attachment: scroll; }
     }
     .btn-group {
   display: flex;
